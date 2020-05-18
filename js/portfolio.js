@@ -13,6 +13,14 @@ function myFunction() {
     navbar.style.position="sticky";
   }
 }
+function myFunc() {
+  var x = document.getElementById("navigation");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
 
 
 // for progress bar
@@ -39,7 +47,7 @@ function abhi()
 var i=0
 $(window).on("scroll", function(){
   if(i==0)
-  {if($(window).scrollTop() + $(window).height() - 100 >= $(".about").offset().top){
+  {if($(window).scrollTop() + $(window).height() - 100 >= $(".prog").offset().top){
     abhi();
       i=1; }
   }
