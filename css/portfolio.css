@@ -73,6 +73,20 @@ body {
 .intro{
     padding:20px;
 }
+@media screen and (max-width:600px)
+{
+    .container1{
+        font-size:16pt;
+    }
+    .intro{
+        padding:4px;
+    }
+    #view{
+        font-size:13pt;
+        padding:5px;
+        margin:10px;
+    }
+}
 #navigation {
     position: sticky;
     top:0;
@@ -124,6 +138,16 @@ text-align: center;
 margin-top: 10px;
 
 }
+@media screen and (max-width:600px)
+{
+    .center{
+        display:none;
+    }
+    .left h1{
+        font-size:25px;
+    }
+}
+
 .canvas{
   min-height: 100%;
   padding-top:60px;
@@ -214,6 +238,7 @@ p {
     -webkit-text-fill-color: transparent;
 }
 
+
 .lnr {
     font-family: 'Linearicons-Free';
     speak-as: none;
@@ -291,7 +316,12 @@ p {
     transition: width 3s ease;
 }
 
+@media screen and (max-width:600px)
+{.row{
+    flex-direction: column;
 
+}
+}
 /*   service area      */
 .heading{
     letter-spacing: 2px;
@@ -347,6 +377,12 @@ margin-top:10px;
     width:50%;
     margin:auto;
   }
+  @media screen and (max-width:600px)
+  {.input{
+      
+      width:100%
+  }  
+}
 .row1{
     display:flex;
     flex-direction:column;
@@ -402,6 +438,11 @@ input[type=submit] {
     padding:0px 10px 30px 12px;
 
     position: relative;
+}
+@media screen and (max-width: 600px) {
+.grid li{
+    width:100%;
+}
 }
 
 .grid figure {
@@ -459,7 +500,7 @@ input[type=submit] {
 	transition: transform 0.4s;
 }
 
- .cs-style-3 figure:hover img,
+ .cs-style-3 figure:hover img,.cs-style-3 figure:active img
 .cs-style-3 figure.cs-hover img {
 	-webkit-transform: translateY(-50px);
 	-moz-transform: translateY(-50px);
@@ -483,7 +524,7 @@ input[type=submit] {
 	transition: transform 0.4s, opacity 0.1s 0.3s;
 }
 
-.no-touch .cs-style-3 figure:hover figcaption,
+.no-touch .cs-style-3 figure:hover figcaption,.no-touch .cs-style-3 figure:active figcaption
 .cs-style-3 figure.cs-hover figcaption {
 	opacity: 1;
 	-webkit-transform: translateY(0px);
