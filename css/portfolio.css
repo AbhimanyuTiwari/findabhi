@@ -150,7 +150,6 @@ margin-top: 10px;
 
 .canvas{
   min-height: 100%;
-    max-width:100%;
   padding-top:60px;
   opacity:0; 
 }
@@ -161,8 +160,8 @@ margin-top: 10px;
     width: 100%;
     padding-right: 38.5px;
     padding-left: 38.5px;
-    margin-right: 5vw;
-    margin-left:5vw;
+    margin-right: auto;
+    margin-left:auto;
    
 }
 
@@ -452,6 +451,7 @@ input[type=submit] {
     transition:all .4s linear;
     padding-bottom:10px;
     }
+    
     
     .hovereffect h2 {
     text-transform:uppercase;
