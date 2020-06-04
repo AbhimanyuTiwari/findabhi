@@ -150,6 +150,7 @@ margin-top: 10px;
 
 .canvas{
   min-height: 100%;
+    max-width:100%;
   padding-top:60px;
   opacity:0; 
 }
